@@ -1,0 +1,85 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            
+            "command": "g++ -g ${file} -o ${workspaceRoot}\\Data\\bin\\${fileBasenameNoExtension}.exe",
+            
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "BuildRun",
+            "type": "shell",
+            
+            "command": "${workspaceRoot}\\Data\\RunCode.bat ${file} ${workspaceRoot}\\Data\\bin\\${fileBasenameNoExtension}.exe",
+            
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+        ,
+        {
+            "label": "Run",
+            "type": "shell",
+            
+            "command": "${workspaceRoot}\\Data\\bin\\${fileBasenameNoExtension}.exe",
+            
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            
+            
+        },
+        {
+            "label": "Kill",
+            "type": "shell",
+            
+            "command": "taskkill /f /im ${fileBasenameNoExtension}.exe",
+            
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            
+            
+        },
+        // {
+        //     "label": "postdebugtask",
+        //     "type": "command",
+            
+        //     "command": "workbench.view.explorer",
+            
+        //     "group": {
+        //         "kind": "test",
+        //         "isDefault": true
+        //     },
+            
+            
+        // },
+        
+        
+        
+        
+    ]
+}
+
+
+

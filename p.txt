@@ -1,0 +1,9 @@
+Patient ID: 587
+Doctor Name: sadsad as
+Patient Name: sad sad
+Doctor ID: 55844
+Medicine Cost: 4564
+Service charge: 255
+Total Cost: 4819
+Admission Date: 2586/56
+

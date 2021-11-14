@@ -1,0 +1,20 @@
+Patient No 1 : 
+Patient ID: 55
+Doctor Name: ad
+Patient Name: asd
+Doctor ID: 25
+Medicine Cost: 25598
+Service charge: 258
+Total Cost: 25856
+Admission Date: 25/56/8
+
+Patient No 2 : 
+Patient ID: 587
+Doctor Name: sadsad as
+Patient Name: sad sad
+Doctor ID: 55844
+Medicine Cost: 4564
+Service charge: 255
+Total Cost: 4819
+Admission Date: 2586/56
+
